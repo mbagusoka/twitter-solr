@@ -37723,3 +37723,1916 @@ Graceful shutdown of 4 routes completed in 0 seconds
 Apache Camel 2.22.0 (CamelContext: camel-1) uptime 2.609 seconds
 2019-03-17 17:35:09,136  INFO DefaultCamelContext: 
 Apache Camel 2.22.0 (CamelContext: camel-1) is shutdown in 0.484 seconds
+2019-03-17 20:58:05,216  INFO StartupInfoLogger: 
+Starting TwitterSolrApplication on DESKTOP-0QHFRNM with PID 3428 (C:\Users\Liluri\Documents\Workspace\twitter-solr\target\classes started by Liluri in C:\Users\Liluri\Documents\Workspace\twitter-solr)
+2019-03-17 20:58:05,221  INFO SpringApplication: 
+No active profile set, falling back to default profiles: default
+2019-03-17 20:58:07,260  INFO RepositoryConfigurationDelegate: 
+Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-17 20:58:07,577  INFO RepositoryConfigurationDelegate: 
+Finished Spring Data repository scanning in 277ms. Found 2 repository interfaces.
+2019-03-17 20:58:08,441  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker: 
+Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$832f9add] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-17 20:58:10,145  INFO DefaultTypeConverter: 
+Type converters loaded (core: 195, classpath: 1)
+2019-03-17 20:58:11,319  INFO TwitterRouter: 
+Twitter Router Configured
+2019-03-17 20:58:11,320  INFO RoutesCollector: 
+Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-03-17 20:58:11,321  INFO RoutesCollector: 
+Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-03-17 20:58:11,339  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is starting
+2019-03-17 20:58:11,341  INFO ManagedManagementStrategy: 
+JMX is enabled
+2019-03-17 20:58:11,980  INFO DefaultCamelContext: 
+StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-03-17 20:58:12,271  INFO DefaultCamelContext: 
+Route: route1 started and consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 20:58:12,717  INFO DefaultCamelContext: 
+Route: route2 started and consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 20:58:12,727  INFO DefaultCamelContext: 
+Route: route3 started and consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 20:58:12,783  INFO DefaultCamelContext: 
+Route: route4 started and consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 20:58:12,785  INFO DefaultCamelContext: 
+Total 4 routes, of which 4 are started
+2019-03-17 20:58:12,788  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) started in 1.448 seconds
+2019-03-17 20:58:12,796  INFO StartupInfoLogger: 
+Started TwitterSolrApplication in 8.707 seconds (JVM running for 11.711)
+2019-03-17 20:59:07,954  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:08,234  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:08,925  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:09,386  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:09,696  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:09,982  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:10,385  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:11,126  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:12,192  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:13,793  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:14,287  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:14,956  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:15,192  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:15,788  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:16,423  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:17,113  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:17,519  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:17,904  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:18,171  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:18,783  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:19,683  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:20,236  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:20,482  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:20,886  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:21,649  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:21,856  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:22,113  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:22,393  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:22,780  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:23,104  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:23,332  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:23,568  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:23,862  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:24,156  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:24,331  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:24,525  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:24,694  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:24,866  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:25,042  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:25,207  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:25,401  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:25,628  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:25,947  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:26,041  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:26,197  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:26,365  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:26,531  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:26,715  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:26,918  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:27,091  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:27,322  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:27,546  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:27,703  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:28,022  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:28,246  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:28,415  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:28,588  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:28,742  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:28,967  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:29,179  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:29,460  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:29,643  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:29,836  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:29,983  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:30,149  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:30,336  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:30,518  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:30,702  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:30,948  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:31,268  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:31,453  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:31,616  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:31,786  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:31,940  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:32,081  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:32,265  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:32,454  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:32,708  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:32,958  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:33,147  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:33,420  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:33,584  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:33,765  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:33,934  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:34,106  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:34,264  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:34,467  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:34,663  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:35,050  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:35,199  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:35,371  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:35,571  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:35,805  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:35,966  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:36,156  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:36,347  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:36,519  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:36,660  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:36,809  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:36,934  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:37,074  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:37,246  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:37,514  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:37,761  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:37,933  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:38,120  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:38,285  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:38,460  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:38,600  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:38,800  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:38,931  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:39,087  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:39,280  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:39,450  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:39,578  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:39,783  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:39,924  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:40,064  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:40,205  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:40,457  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:42,068  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:43,177  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:43,459  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:44,021  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:44,084  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:44,287  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:44,443  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:44,568  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:44,755  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:44,990  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:45,146  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:45,302  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:45,443  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:45,584  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:45,709  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:45,865  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:46,021  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:46,146  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:46,334  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:46,667  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:46,857  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:47,051  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:47,222  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:47,365  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:47,530  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:47,684  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:47,868  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:48,054  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:48,195  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:48,351  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:48,507  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:48,789  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:48,985  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:49,116  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:49,241  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:49,396  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:49,536  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:49,695  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:49,865  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:50,294  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:50,453  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:50,602  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:50,740  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:50,881  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:51,031  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:51,181  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:51,306  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:51,462  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:51,651  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:51,792  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:51,917  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:52,057  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:52,185  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:52,326  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:52,455  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:52,624  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:52,797  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:53,007  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:53,144  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:53,288  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:53,413  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:53,570  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:53,724  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:53,879  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:54,020  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:54,188  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:54,381  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:54,537  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:54,692  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:54,837  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:54,988  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,134  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,296  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,441  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,592  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,874  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,874  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,874  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:55,890  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:56,163  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:56,320  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:56,502  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:56,661  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:56,873  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:57,056  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:57,260  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:57,433  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:57,558  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:57,761  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:58,210  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:58,216  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:58,225  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:58,235  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:58,525  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:58,764  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:58,941  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:59,099  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:59,455  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:59,750  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 20:59:59,873  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:00,013  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:00,162  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:00,305  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:00,442  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:00,598  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:00,741  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:00,991  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:01,101  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:01,226  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:01,366  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:01,512  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:01,675  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:01,822  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:01,963  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:02,159  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:02,474  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:02,644  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:02,822  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:02,969  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:03,091  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:03,231  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:03,387  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:03,528  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:03,669  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:03,856  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:04,184  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:04,325  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:04,450  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:04,591  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:04,716  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:04,856  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:05,013  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:05,169  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:05,481  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:05,497  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:05,497  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:05,669  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:05,950  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:06,081  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:06,234  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:06,485  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:06,648  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:07,109  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:07,196  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:07,363  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:07,574  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:07,731  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:07,914  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:08,079  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:08,219  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:08,379  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:08,524  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:08,798  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:09,012  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:09,195  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:09,320  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:09,476  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:09,626  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:09,787  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:09,941  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:10,152  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:10,403  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:10,517  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:10,657  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:10,808  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:10,980  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:11,105  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:11,269  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:11,416  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:11,575  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:11,859  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:11,984  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:12,125  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:12,259  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:12,410  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:12,560  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:12,695  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:12,853  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:13,033  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:13,380  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:13,515  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:13,648  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:13,788  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:13,916  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:14,064  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:14,205  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:14,348  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:14,535  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:14,864  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:15,036  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:15,163  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:15,303  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:15,428  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:15,569  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:15,740  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:15,975  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:16,340  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:16,478  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:16,616  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:16,776  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:16,915  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,049  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,200  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,366  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,545  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,842  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,842  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,842  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,842  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:17,858  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:18,028  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:18,246  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:18,395  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:18,550  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:18,684  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:18,861  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:19,063  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:19,231  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:19,377  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:19,500  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:19,649  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:19,778  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:19,945  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:20,108  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:20,306  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:20,489  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:20,633  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:20,787  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:20,946  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:21,107  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:21,243  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:21,384  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:21,530  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:21,727  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:21,945  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:22,114  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:22,312  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:22,462  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:22,601  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:22,742  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:22,884  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:23,063  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:23,256  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:23,441  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:23,582  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:23,729  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:23,870  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:24,064  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:24,210  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:24,347  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:24,498  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:24,643  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:24,820  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:25,119  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:25,252  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:25,407  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:25,556  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:25,729  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:25,871  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:26,048  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:26,202  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:26,528  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:26,622  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:26,747  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:26,882  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:27,028  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:27,166  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:27,307  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:27,489  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:27,738  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:27,921  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:28,064  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:28,209  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:28,334  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:28,486  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:28,653  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:28,831  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:29,001  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:29,183  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:29,353  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:29,668  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:29,797  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:29,922  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:30,065  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:30,190  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:30,354  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:30,523  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:30,781  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:31,188  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:31,371  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:31,527  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:31,706  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:31,897  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:32,049  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:32,219  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:32,373  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:32,564  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:32,954  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:33,159  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:33,344  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:33,585  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:33,711  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:33,849  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:33,985  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:34,160  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:34,337  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:34,564  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:34,902  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:35,100  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:35,234  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:35,378  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:35,531  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:35,669  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:35,888  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:00:36,148  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:36:57,825  INFO AbstractTestContextBootstrapper: 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sonar.twittersolr.TwitterCrudServiceTest], using SpringBootContextLoader
+2019-03-17 21:36:57,841  INFO AbstractContextLoader: 
+Could not detect default resource locations for test class [com.sonar.twittersolr.TwitterCrudServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 21:36:57,841  INFO AnnotationConfigContextLoaderUtils: 
+Could not detect default configuration classes for test class [com.sonar.twittersolr.TwitterCrudServiceTest]: TwitterCrudServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-17 21:36:58,075  INFO SpringBootTestContextBootstrapper: 
+Found @SpringBootConfiguration com.sonar.twittersolr.TwitterSolrApplication for test class com.sonar.twittersolr.TwitterCrudServiceTest
+2019-03-17 21:36:58,216  INFO AbstractTestContextBootstrapper: 
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 21:36:58,231  INFO AbstractTestContextBootstrapper: 
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@35e2d654, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1bd4fdd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55183b20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f83df68, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cf0e0ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d8995e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130d63be, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@42a48628, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@293a5bf6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aeb35e6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1283bb96]
+2019-03-17 21:36:58,811  INFO StartupInfoLogger: 
+Starting TwitterCrudServiceTest on DESKTOP-0QHFRNM with PID 8280 (started by Liluri in C:\Users\Liluri\Documents\Workspace\twitter-solr)
+2019-03-17 21:36:58,811  INFO SpringApplication: 
+No active profile set, falling back to default profiles: default
+2019-03-17 21:37:00,128  INFO RepositoryConfigurationDelegate: 
+Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-17 21:37:00,251  INFO RepositoryConfigurationDelegate: 
+Finished Spring Data repository scanning in 107ms. Found 2 repository interfaces.
+2019-03-17 21:37:00,969  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker: 
+Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$22ba543a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-17 21:37:02,831  INFO DefaultTypeConverter: 
+Type converters loaded (core: 195, classpath: 1)
+2019-03-17 21:37:04,444  INFO TwitterRouter: 
+Twitter Router Configured
+2019-03-17 21:37:04,444  INFO RoutesCollector: 
+Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-03-17 21:37:04,444  INFO RoutesCollector: 
+Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-03-17 21:37:04,459  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is starting
+2019-03-17 21:37:04,459  INFO ManagedManagementStrategy: 
+JMX is enabled
+2019-03-17 21:37:05,428  INFO DefaultCamelContext: 
+StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-03-17 21:37:05,616  INFO DefaultCamelContext: 
+Route: route1 started and consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 21:37:05,882  INFO DefaultCamelContext: 
+Route: route2 started and consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 21:37:05,897  INFO DefaultCamelContext: 
+Route: route3 started and consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 21:37:05,897  INFO DefaultCamelContext: 
+Route: route4 started and consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 21:37:05,913  INFO DefaultCamelContext: 
+Total 4 routes, of which 4 are started
+2019-03-17 21:37:05,913  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) started in 1.454 seconds
+2019-03-17 21:37:05,929  INFO StartupInfoLogger: 
+Started TwitterCrudServiceTest in 7.651 seconds (JVM running for 9.156)
+2019-03-17 21:37:07,133  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:37:07,279  INFO AbstractTestContextBootstrapper: 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sonar.twittersolr.TwitterSolrApplicationTests], using SpringBootContextLoader
+2019-03-17 21:37:07,280  INFO AbstractContextLoader: 
+Could not detect default resource locations for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 21:37:07,281  INFO AnnotationConfigContextLoaderUtils: 
+Could not detect default configuration classes for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: TwitterSolrApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-17 21:37:07,284  INFO SpringBootTestContextBootstrapper: 
+Found @SpringBootConfiguration com.sonar.twittersolr.TwitterSolrApplication for test class com.sonar.twittersolr.TwitterSolrApplicationTests
+2019-03-17 21:37:07,380  INFO AbstractTestContextBootstrapper: 
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 21:37:07,383  INFO AbstractTestContextBootstrapper: 
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@76437e9b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@236ae13d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@193eb1ba, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2be818da, org.springframework.test.context.transaction.TransactionalTestExecutionListener@46320c9a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@32256e68, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5e7abaf7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@353f472a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@63bfdbcb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7af0affa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71560f51]
+2019-03-17 21:37:07,659  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutting down
+2019-03-17 21:37:07,659  INFO DefaultShutdownStrategy: 
+Starting to graceful shutdown 4 routes (timeout 300 seconds)
+2019-03-17 21:37:07,674  INFO DefaultShutdownStrategy$ShutdownTask: 
+Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route2 = 1]
+2019-03-17 21:37:07,690  INFO DefaultShutdownStrategy: 
+There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-0QHFRNM-1552833422596-0-2, fromRouteId=route2, routeId=route2, nodeId=bean1, elapsed=0, duration=557]
+2019-03-17 21:37:08,311  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:37:08,705  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route4 shutdown complete, was consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 21:37:08,705  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route3 shutdown complete, was consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 21:37:08,705  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route2 shutdown complete, was consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 21:37:08,705  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route1 shutdown complete, was consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 21:37:08,705  INFO DefaultShutdownStrategy: 
+Graceful shutdown of 4 routes completed in 1 seconds
+2019-03-17 21:37:08,736  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) uptime 4.277 seconds
+2019-03-17 21:37:08,736  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutdown in 1.077 seconds
+2019-03-17 21:39:01,542  INFO StartupInfoLogger: 
+Starting TwitterSolrApplication on DESKTOP-0QHFRNM with PID 5380 (C:\Users\Liluri\Documents\Workspace\twitter-solr\target\classes started by Liluri in C:\Users\Liluri\Documents\Workspace\twitter-solr)
+2019-03-17 21:39:01,542  INFO SpringApplication: 
+No active profile set, falling back to default profiles: default
+2019-03-17 21:39:19,732  INFO AbstractTestContextBootstrapper: 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sonar.twittersolr.TwitterCrudServiceTest], using SpringBootContextLoader
+2019-03-17 21:39:19,781  INFO AbstractContextLoader: 
+Could not detect default resource locations for test class [com.sonar.twittersolr.TwitterCrudServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 21:39:19,784  INFO AnnotationConfigContextLoaderUtils: 
+Could not detect default configuration classes for test class [com.sonar.twittersolr.TwitterCrudServiceTest]: TwitterCrudServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-17 21:39:20,178  INFO SpringBootTestContextBootstrapper: 
+Found @SpringBootConfiguration com.sonar.twittersolr.TwitterSolrApplication for test class com.sonar.twittersolr.TwitterCrudServiceTest
+2019-03-17 21:39:20,366  INFO AbstractTestContextBootstrapper: 
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 21:39:20,397  INFO AbstractTestContextBootstrapper: 
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6cf0e0ba, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7d8995e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@130d63be, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42a48628, org.springframework.test.context.transaction.TransactionalTestExecutionListener@293a5bf6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6aeb35e6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1283bb96, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74f0ea28, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@f6efaab, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c19aaa5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3349e9bb]
+2019-03-17 21:39:21,515  INFO StartupInfoLogger: 
+Starting TwitterCrudServiceTest on DESKTOP-0QHFRNM with PID 6416 (started by Liluri in C:\Users\Liluri\Documents\Workspace\twitter-solr)
+2019-03-17 21:39:21,515  INFO SpringApplication: 
+No active profile set, falling back to default profiles: default
+2019-03-17 21:39:24,109  INFO RepositoryConfigurationDelegate: 
+Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-17 21:39:24,375  INFO RepositoryConfigurationDelegate: 
+Finished Spring Data repository scanning in 235ms. Found 2 repository interfaces.
+2019-03-17 21:39:25,509  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker: 
+Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$270e8f64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-17 21:39:28,114  INFO DefaultTypeConverter: 
+Type converters loaded (core: 195, classpath: 1)
+2019-03-17 21:39:29,997  INFO TwitterRouter: 
+Twitter Router Configured
+2019-03-17 21:39:29,997  INFO RoutesCollector: 
+Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-03-17 21:39:29,997  INFO RoutesCollector: 
+Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-03-17 21:39:30,013  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is starting
+2019-03-17 21:39:30,013  INFO ManagedManagementStrategy: 
+JMX is enabled
+2019-03-17 21:39:31,226  INFO DefaultCamelContext: 
+StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-03-17 21:39:31,398  INFO DefaultCamelContext: 
+Route: route1 started and consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 21:39:31,664  INFO DefaultCamelContext: 
+Route: route2 started and consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 21:39:31,680  INFO DefaultCamelContext: 
+Route: route3 started and consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 21:39:31,680  INFO DefaultCamelContext: 
+Route: route4 started and consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 21:39:31,680  INFO DefaultCamelContext: 
+Total 4 routes, of which 4 are started
+2019-03-17 21:39:31,695  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) started in 1.667 seconds
+2019-03-17 21:39:31,695  INFO StartupInfoLogger: 
+Started TwitterCrudServiceTest in 11.22 seconds (JVM running for 14.5)
+2019-03-17 21:39:32,961  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:39:33,039 ERROR TwitterCrudServiceTest: 
+Exception: 
+org.springframework.dao.DataAccessResourceFailureException: Error from server at http://localhost:8983/solr: org.apache.solr.search.SyntaxError: Cannot parse '*:{id=tag:search.twitter.com,2005:1107087108685131776, objectType=activity, verb=share, postedTime=2019-03-17T01:11:50.000Z, generator={displayName=Twitter for Android, link=http://twitter.com/download/android}, provider={objectType=service, displayName=Twitter, link=http://www.twitter.com}, link=http://twitter.com/roninpribumi/statuses/1107087108685131776, body=RT @JonruGintingNew: Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+h…, actor={objectType=person, id=id:twitter.com:2317399716, link=http://www.twitter.com/roninpribumi, displayName=Suara Oposisi, postedTime=2014-01-29T16:12:48.061Z, image=https://pbs.twimg.com/profile_images/1106669659955183616/AiTBTnzb_normal.jpg, summary=Oposisi adalah keniscayaan dalam demokrasi | Akun bubuk rengginang | #2019GantiPresiden |
+Akun cadangan: @UdinNachiro, friendsCount=892, followersCount=38835, listedCount=23, statusesCount=86768, twitterTimeZone=null, verified=false, utcOffset=null, preferredUsername=roninpribumi, languages=[en], links=[{href=null, rel=me}], location={objectType=place, displayName=South East Asia}, favoritesCount=1343}, object={id=tag:search.twitter.com,2005:1107076559528054784, objectType=activity, verb=post, postedTime=2019-03-17T00:29:54.000Z, generator={displayName=Twitter for Android, link=http://twitter.com/download/android}, provider={objectType=service, displayName=Twitter, link=http://www.twitter.com}, link=http://twitter.com/JonruGintingNew/statuses/1107076559528054784, body=Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+https://t.co/Lee0ZcWPLv, actor={objectType=person, id=id:twitter.com:1068270168843837441, link=http://www.twitter.com/JonruGintingNew, displayName=Jonru Ginting, postedTime=2018-11-29T22:27:10.529Z, image=https://pbs.twimg.com/profile_images/1080291980838547456/gy3sXFbB_normal.jpg, summary=JONRU IS BACK! | HOBI MEMBLOKIR | Akun lama tak bisa diakses | Independen, bukan buzzer, bukan dari ormas/parpol manapun |  Business Inquiry: WA 089653767937, friendsCount=54, followersCount=24951, listedCount=7, statusesCount=596, twitterTimeZone=null, verified=false, utcOffset=null, preferredUsername=JonruGintingNew, languages=[en], links=[{href=http://www.jonruginting.com, rel=me}], location={objectType=place, displayName=Jakarta Capital Region, Indone}, favoritesCount=616}, object={objectType=note, id=object:search.twitter.com,2005:1107076559528054784, summary=Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+https://t.co/Lee0ZcWPLv, link=http://twitter.com/JonruGintingNew/statuses/1107076559528054784, postedTime=2019-03-17T00:29:54.000Z}, favoritesCount=123, twitter_entities={hashtags=[], urls=[{url=https://t.co/Lee0ZcWPLv, expanded_url=https://m.cnnindonesia.com/nasional/20190315232544-32-377777/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi, display_url=m.cnnindonesia.com/nasional/20190…, indices=[117, 140]}], user_mentions=[], symbols=[]}, twitter_lang=in, twitter_filter_level=low}, favoritesCount=0, twitter_entities={hashtags=[], urls=[], user_mentions=[{screen_name=JonruGintingNew, name=Jonru Ginting, id=1068270168843837441, id_str=1068270168843837441, indices=[3, 19]}], symbols=[]}, twitter_lang=in, retweetCount=38, gnip={matching_rules=[{tag=1576:r2616:1, id=1105379165216227328, id_str=1105379165216227328}], urls=[{url=https://t.co/Lee0ZcWPLv, expanded_url=https://www.cnnindonesia.com/nasional/20190315232544-32-377777/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi?utm_source=twitter&utm_medium=oa&utm_content=cnnindonesia&utm_campaign=cmssocmed, expanded_status=200, expanded_url_title=TKN: OTT Romi Sumbang Persepsi Positif untuk Jokowi, expanded_url_description=TKN Jokowi-Ma'ruf Amin mengklaim OTT KPK terhadap Ketum PPP Romahurmuziy tak memengaruhi elektabilitas pasangan calon yang diusung.}], profileLocations=[{address={country=South Africa, countryCode=ZA}, displayName=South Africa, geo={coordinates=[24.0, -29.0], type=point}, objectType=place}]}, twitter_filter_level=low}': Encountered " <RANGE_GOOP> "objectType=activity, "" at line 1, column 55.
+Was expecting:
+    "TO" ...
+    ; nested exception is org.apache.solr.client.solrj.impl.HttpSolrClient$RemoteSolrException: Error from server at http://localhost:8983/solr: org.apache.solr.search.SyntaxError: Cannot parse '*:{id=tag:search.twitter.com,2005:1107087108685131776, objectType=activity, verb=share, postedTime=2019-03-17T01:11:50.000Z, generator={displayName=Twitter for Android, link=http://twitter.com/download/android}, provider={objectType=service, displayName=Twitter, link=http://www.twitter.com}, link=http://twitter.com/roninpribumi/statuses/1107087108685131776, body=RT @JonruGintingNew: Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+h…, actor={objectType=person, id=id:twitter.com:2317399716, link=http://www.twitter.com/roninpribumi, displayName=Suara Oposisi, postedTime=2014-01-29T16:12:48.061Z, image=https://pbs.twimg.com/profile_images/1106669659955183616/AiTBTnzb_normal.jpg, summary=Oposisi adalah keniscayaan dalam demokrasi | Akun bubuk rengginang | #2019GantiPresiden |
+Akun cadangan: @UdinNachiro, friendsCount=892, followersCount=38835, listedCount=23, statusesCount=86768, twitterTimeZone=null, verified=false, utcOffset=null, preferredUsername=roninpribumi, languages=[en], links=[{href=null, rel=me}], location={objectType=place, displayName=South East Asia}, favoritesCount=1343}, object={id=tag:search.twitter.com,2005:1107076559528054784, objectType=activity, verb=post, postedTime=2019-03-17T00:29:54.000Z, generator={displayName=Twitter for Android, link=http://twitter.com/download/android}, provider={objectType=service, displayName=Twitter, link=http://www.twitter.com}, link=http://twitter.com/JonruGintingNew/statuses/1107076559528054784, body=Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+https://t.co/Lee0ZcWPLv, actor={objectType=person, id=id:twitter.com:1068270168843837441, link=http://www.twitter.com/JonruGintingNew, displayName=Jonru Ginting, postedTime=2018-11-29T22:27:10.529Z, image=https://pbs.twimg.com/profile_images/1080291980838547456/gy3sXFbB_normal.jpg, summary=JONRU IS BACK! | HOBI MEMBLOKIR | Akun lama tak bisa diakses | Independen, bukan buzzer, bukan dari ormas/parpol manapun |  Business Inquiry: WA 089653767937, friendsCount=54, followersCount=24951, listedCount=7, statusesCount=596, twitterTimeZone=null, verified=false, utcOffset=null, preferredUsername=JonruGintingNew, languages=[en], links=[{href=http://www.jonruginting.com, rel=me}], location={objectType=place, displayName=Jakarta Capital Region, Indone}, favoritesCount=616}, object={objectType=note, id=object:search.twitter.com,2005:1107076559528054784, summary=Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+https://t.co/Lee0ZcWPLv, link=http://twitter.com/JonruGintingNew/statuses/1107076559528054784, postedTime=2019-03-17T00:29:54.000Z}, favoritesCount=123, twitter_entities={hashtags=[], urls=[{url=https://t.co/Lee0ZcWPLv, expanded_url=https://m.cnnindonesia.com/nasional/20190315232544-32-377777/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi, display_url=m.cnnindonesia.com/nasional/20190…, indices=[117, 140]}], user_mentions=[], symbols=[]}, twitter_lang=in, twitter_filter_level=low}, favoritesCount=0, twitter_entities={hashtags=[], urls=[], user_mentions=[{screen_name=JonruGintingNew, name=Jonru Ginting, id=1068270168843837441, id_str=1068270168843837441, indices=[3, 19]}], symbols=[]}, twitter_lang=in, retweetCount=38, gnip={matching_rules=[{tag=1576:r2616:1, id=1105379165216227328, id_str=1105379165216227328}], urls=[{url=https://t.co/Lee0ZcWPLv, expanded_url=https://www.cnnindonesia.com/nasional/20190315232544-32-377777/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi?utm_source=twitter&utm_medium=oa&utm_content=cnnindonesia&utm_campaign=cmssocmed, expanded_status=200, expanded_url_title=TKN: OTT Romi Sumbang Persepsi Positif untuk Jokowi, expanded_url_description=TKN Jokowi-Ma'ruf Amin mengklaim OTT KPK terhadap Ketum PPP Romahurmuziy tak memengaruhi elektabilitas pasangan calon yang diusung.}], profileLocations=[{address={country=South Africa, countryCode=ZA}, displayName=South Africa, geo={coordinates=[24.0, -29.0], type=point}, objectType=place}]}, twitter_filter_level=low}': Encountered " <RANGE_GOOP> "objectType=activity, "" at line 1, column 55.
+Was expecting:
+    "TO" ...
+    
+	at org.springframework.data.solr.core.SolrExceptionTranslator.translateExceptionIfPossible(SolrExceptionTranslator.java:84)
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:169)
+	at org.springframework.data.solr.core.SolrTemplate.executeSolrQuery(SolrTemplate.java:519)
+	at org.springframework.data.solr.core.SolrTemplate.querySolr(SolrTemplate.java:510)
+	at org.springframework.data.solr.core.SolrTemplate.queryForObject(SolrTemplate.java:285)
+	at org.springframework.data.solr.core.SolrTemplate.queryForObject(SolrTemplate.java:270)
+	at org.springframework.data.solr.repository.support.SimpleSolrRepository.findById(SimpleSolrRepository.java:91)
+	at org.springframework.data.solr.repository.support.SimpleSolrRepository.findById(SimpleSolrRepository.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:359)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:644)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:608)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy70.findById(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy70.findById(Unknown Source)
+	at com.sonar.twittersolr.TwitterCrudServiceTest.saveDataTest(TwitterCrudServiceTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.apache.solr.client.solrj.impl.HttpSolrClient$RemoteSolrException: Error from server at http://localhost:8983/solr: org.apache.solr.search.SyntaxError: Cannot parse '*:{id=tag:search.twitter.com,2005:1107087108685131776, objectType=activity, verb=share, postedTime=2019-03-17T01:11:50.000Z, generator={displayName=Twitter for Android, link=http://twitter.com/download/android}, provider={objectType=service, displayName=Twitter, link=http://www.twitter.com}, link=http://twitter.com/roninpribumi/statuses/1107087108685131776, body=RT @JonruGintingNew: Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+h…, actor={objectType=person, id=id:twitter.com:2317399716, link=http://www.twitter.com/roninpribumi, displayName=Suara Oposisi, postedTime=2014-01-29T16:12:48.061Z, image=https://pbs.twimg.com/profile_images/1106669659955183616/AiTBTnzb_normal.jpg, summary=Oposisi adalah keniscayaan dalam demokrasi | Akun bubuk rengginang | #2019GantiPresiden |
+Akun cadangan: @UdinNachiro, friendsCount=892, followersCount=38835, listedCount=23, statusesCount=86768, twitterTimeZone=null, verified=false, utcOffset=null, preferredUsername=roninpribumi, languages=[en], links=[{href=null, rel=me}], location={objectType=place, displayName=South East Asia}, favoritesCount=1343}, object={id=tag:search.twitter.com,2005:1107076559528054784, objectType=activity, verb=post, postedTime=2019-03-17T00:29:54.000Z, generator={displayName=Twitter for Android, link=http://twitter.com/download/android}, provider={objectType=service, displayName=Twitter, link=http://www.twitter.com}, link=http://twitter.com/JonruGintingNew/statuses/1107076559528054784, body=Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+https://t.co/Lee0ZcWPLv, actor={objectType=person, id=id:twitter.com:1068270168843837441, link=http://www.twitter.com/JonruGintingNew, displayName=Jonru Ginting, postedTime=2018-11-29T22:27:10.529Z, image=https://pbs.twimg.com/profile_images/1080291980838547456/gy3sXFbB_normal.jpg, summary=JONRU IS BACK! | HOBI MEMBLOKIR | Akun lama tak bisa diakses | Independen, bukan buzzer, bukan dari ormas/parpol manapun |  Business Inquiry: WA 089653767937, friendsCount=54, followersCount=24951, listedCount=7, statusesCount=596, twitterTimeZone=null, verified=false, utcOffset=null, preferredUsername=JonruGintingNew, languages=[en], links=[{href=http://www.jonruginting.com, rel=me}], location={objectType=place, displayName=Jakarta Capital Region, Indone}, favoritesCount=616}, object={objectType=note, id=object:search.twitter.com,2005:1107076559528054784, summary=Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.
+
+https://t.co/Lee0ZcWPLv, link=http://twitter.com/JonruGintingNew/statuses/1107076559528054784, postedTime=2019-03-17T00:29:54.000Z}, favoritesCount=123, twitter_entities={hashtags=[], urls=[{url=https://t.co/Lee0ZcWPLv, expanded_url=https://m.cnnindonesia.com/nasional/20190315232544-32-377777/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi, display_url=m.cnnindonesia.com/nasional/20190…, indices=[117, 140]}], user_mentions=[], symbols=[]}, twitter_lang=in, twitter_filter_level=low}, favoritesCount=0, twitter_entities={hashtags=[], urls=[], user_mentions=[{screen_name=JonruGintingNew, name=Jonru Ginting, id=1068270168843837441, id_str=1068270168843837441, indices=[3, 19]}], symbols=[]}, twitter_lang=in, retweetCount=38, gnip={matching_rules=[{tag=1576:r2616:1, id=1105379165216227328, id_str=1105379165216227328}], urls=[{url=https://t.co/Lee0ZcWPLv, expanded_url=https://www.cnnindonesia.com/nasional/20190315232544-32-377777/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi?utm_source=twitter&utm_medium=oa&utm_content=cnnindonesia&utm_campaign=cmssocmed, expanded_status=200, expanded_url_title=TKN: OTT Romi Sumbang Persepsi Positif untuk Jokowi, expanded_url_description=TKN Jokowi-Ma'ruf Amin mengklaim OTT KPK terhadap Ketum PPP Romahurmuziy tak memengaruhi elektabilitas pasangan calon yang diusung.}], profileLocations=[{address={country=South Africa, countryCode=ZA}, displayName=South Africa, geo={coordinates=[24.0, -29.0], type=point}, objectType=place}]}, twitter_filter_level=low}': Encountered " <RANGE_GOOP> "objectType=activity, "" at line 1, column 55.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:643)
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:255)
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:244)
+	at org.apache.solr.client.solrj.SolrRequest.process(SolrRequest.java:194)
+	at org.apache.solr.client.solrj.SolrClient.query(SolrClient.java:974)
+	at org.springframework.data.solr.core.SolrTemplate.lambda$executeSolrQuery$9(SolrTemplate.java:519)
+	at org.springframework.data.solr.core.SolrTemplate.execute(SolrTemplate.java:167)
+	... 76 more
+2019-03-17 21:39:33,070  INFO AbstractTestContextBootstrapper: 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sonar.twittersolr.TwitterSolrApplicationTests], using SpringBootContextLoader
+2019-03-17 21:39:33,070  INFO AbstractContextLoader: 
+Could not detect default resource locations for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 21:39:33,070  INFO AnnotationConfigContextLoaderUtils: 
+Could not detect default configuration classes for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: TwitterSolrApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-17 21:39:33,070  INFO SpringBootTestContextBootstrapper: 
+Found @SpringBootConfiguration com.sonar.twittersolr.TwitterSolrApplication for test class com.sonar.twittersolr.TwitterSolrApplicationTests
+2019-03-17 21:39:33,070  INFO AbstractTestContextBootstrapper: 
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 21:39:33,086  INFO AbstractTestContextBootstrapper: 
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6e243175, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7a1a3468, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@59d0cdb6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2dfeb141, org.springframework.test.context.transaction.TransactionalTestExecutionListener@629e8212, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@498c535d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@16ee9aa7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e424582, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@58dad04a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@73e776b7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@113ee1ce]
+2019-03-17 21:39:33,320  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:39:34,477  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutting down
+2019-03-17 21:39:34,492  INFO DefaultShutdownStrategy: 
+Starting to graceful shutdown 4 routes (timeout 300 seconds)
+2019-03-17 21:39:34,508  INFO DefaultShutdownStrategy$ShutdownTask: 
+Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route2 = 1]
+2019-03-17 21:39:34,508  INFO DefaultShutdownStrategy: 
+There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-0QHFRNM-1552833567911-0-3, fromRouteId=route2, routeId=route2, nodeId=bean1, elapsed=0, duration=1188]
+2019-03-17 21:39:34,695  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:39:35,523  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route4 shutdown complete, was consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 21:39:35,523  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route3 shutdown complete, was consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 21:39:35,523  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route2 shutdown complete, was consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 21:39:35,523  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route1 shutdown complete, was consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 21:39:35,523  INFO DefaultShutdownStrategy: 
+Graceful shutdown of 4 routes completed in 1 seconds
+2019-03-17 21:39:35,554  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) uptime 5.541 seconds
+2019-03-17 21:39:35,554  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutdown in 1.077 seconds
+2019-03-17 21:47:47,892  INFO AbstractTestContextBootstrapper: 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sonar.twittersolr.TwitterCrudServiceTest], using SpringBootContextLoader
+2019-03-17 21:47:47,908  INFO AbstractContextLoader: 
+Could not detect default resource locations for test class [com.sonar.twittersolr.TwitterCrudServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 21:47:47,908  INFO AnnotationConfigContextLoaderUtils: 
+Could not detect default configuration classes for test class [com.sonar.twittersolr.TwitterCrudServiceTest]: TwitterCrudServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-17 21:47:48,117  INFO SpringBootTestContextBootstrapper: 
+Found @SpringBootConfiguration com.sonar.twittersolr.TwitterSolrApplication for test class com.sonar.twittersolr.TwitterCrudServiceTest
+2019-03-17 21:47:48,257  INFO AbstractTestContextBootstrapper: 
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 21:47:48,289  INFO AbstractTestContextBootstrapper: 
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@35e2d654, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1bd4fdd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55183b20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f83df68, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cf0e0ba, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d8995e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@130d63be, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@42a48628, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@293a5bf6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6aeb35e6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1283bb96]
+2019-03-17 21:47:48,882  INFO StartupInfoLogger: 
+Starting TwitterCrudServiceTest on DESKTOP-0QHFRNM with PID 2572 (started by Liluri in C:\Users\Liluri\Documents\Workspace\twitter-solr)
+2019-03-17 21:47:48,882  INFO SpringApplication: 
+No active profile set, falling back to default profiles: default
+2019-03-17 21:47:50,198  INFO RepositoryConfigurationDelegate: 
+Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-17 21:47:50,354  INFO RepositoryConfigurationDelegate: 
+Finished Spring Data repository scanning in 125ms. Found 2 repository interfaces.
+2019-03-17 21:47:51,042  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker: 
+Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$94b88233] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-17 21:47:52,895  INFO DefaultTypeConverter: 
+Type converters loaded (core: 195, classpath: 1)
+2019-03-17 21:47:54,564  INFO TwitterRouter: 
+Twitter Router Configured
+2019-03-17 21:47:54,564  INFO RoutesCollector: 
+Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-03-17 21:47:54,564  INFO RoutesCollector: 
+Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-03-17 21:47:54,580  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is starting
+2019-03-17 21:47:54,580  INFO ManagedManagementStrategy: 
+JMX is enabled
+2019-03-17 21:47:55,611  INFO DefaultCamelContext: 
+StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-03-17 21:47:55,799  INFO DefaultCamelContext: 
+Route: route1 started and consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 21:47:56,080  INFO DefaultCamelContext: 
+Route: route2 started and consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 21:47:56,096  INFO DefaultCamelContext: 
+Route: route3 started and consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 21:47:56,108  INFO DefaultCamelContext: 
+Route: route4 started and consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 21:47:56,109  INFO DefaultCamelContext: 
+Total 4 routes, of which 4 are started
+2019-03-17 21:47:56,112  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) started in 1.529 seconds
+2019-03-17 21:47:56,115  INFO StartupInfoLogger: 
+Started TwitterCrudServiceTest in 7.764 seconds (JVM running for 9.229)
+2019-03-17 21:48:00,051  INFO AbstractTestContextBootstrapper: 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sonar.twittersolr.TwitterSolrApplicationTests], using SpringBootContextLoader
+2019-03-17 21:48:00,053  INFO AbstractContextLoader: 
+Could not detect default resource locations for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 21:48:00,055  INFO AnnotationConfigContextLoaderUtils: 
+Could not detect default configuration classes for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: TwitterSolrApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-17 21:48:00,060  INFO SpringBootTestContextBootstrapper: 
+Found @SpringBootConfiguration com.sonar.twittersolr.TwitterSolrApplication for test class com.sonar.twittersolr.TwitterSolrApplicationTests
+2019-03-17 21:48:00,068  INFO AbstractTestContextBootstrapper: 
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 21:48:00,071  INFO AbstractTestContextBootstrapper: 
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@166c2c17, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25953be6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@19dc0d32, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70b2fa10, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c96c85, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b0f2d91, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7243145f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15c6027d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5927f904, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2bb62414, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@413d2cd1]
+2019-03-17 21:48:00,342  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutting down
+2019-03-17 21:48:00,349  INFO DefaultShutdownStrategy: 
+Starting to graceful shutdown 4 routes (timeout 300 seconds)
+2019-03-17 21:48:00,363  INFO DefaultShutdownStrategy$ShutdownTask: 
+Waiting as there are still 1 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route2 = 1]
+2019-03-17 21:48:00,368  INFO DefaultShutdownStrategy: 
+There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-DESKTOP-0QHFRNM-1552834072708-0-1, fromRouteId=route2, routeId=route2, nodeId=bean1, elapsed=0, duration=4128]
+2019-03-17 21:48:00,414  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:01,374  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route4 shutdown complete, was consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 21:48:01,375  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route3 shutdown complete, was consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 21:48:01,377  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route2 shutdown complete, was consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 21:48:01,380  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route1 shutdown complete, was consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 21:48:01,381  INFO DefaultShutdownStrategy: 
+Graceful shutdown of 4 routes completed in 1 seconds
+2019-03-17 21:48:01,405  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) uptime 6.824 seconds
+2019-03-17 21:48:01,405  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutdown in 1.064 seconds
+2019-03-17 21:48:33,407  INFO StartupInfoLogger: 
+Starting TwitterSolrApplication on DESKTOP-0QHFRNM with PID 2684 (C:\Users\Liluri\Documents\Workspace\twitter-solr\target\classes started by Liluri in C:\Users\Liluri\Documents\Workspace\twitter-solr)
+2019-03-17 21:48:33,407  INFO SpringApplication: 
+No active profile set, falling back to default profiles: default
+2019-03-17 21:48:34,881  INFO RepositoryConfigurationDelegate: 
+Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-17 21:48:34,990  INFO RepositoryConfigurationDelegate: 
+Finished Spring Data repository scanning in 94ms. Found 2 repository interfaces.
+2019-03-17 21:48:35,484  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker: 
+Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$4e311741] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-17 21:48:36,429  INFO DefaultTypeConverter: 
+Type converters loaded (core: 195, classpath: 1)
+2019-03-17 21:48:37,007  INFO TwitterRouter: 
+Twitter Router Configured
+2019-03-17 21:48:37,007  INFO RoutesCollector: 
+Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-03-17 21:48:37,007  INFO RoutesCollector: 
+Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-03-17 21:48:37,023  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is starting
+2019-03-17 21:48:37,023  INFO ManagedManagementStrategy: 
+JMX is enabled
+2019-03-17 21:48:37,476  INFO DefaultCamelContext: 
+StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-03-17 21:48:37,632  INFO DefaultCamelContext: 
+Route: route1 started and consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 21:48:37,820  INFO DefaultCamelContext: 
+Route: route2 started and consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 21:48:37,851  INFO DefaultCamelContext: 
+Route: route3 started and consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 21:48:37,867  INFO DefaultCamelContext: 
+Route: route4 started and consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 21:48:37,867  INFO DefaultCamelContext: 
+Total 4 routes, of which 4 are started
+2019-03-17 21:48:37,867  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) started in 0.844 seconds
+2019-03-17 21:48:37,867  INFO StartupInfoLogger: 
+Started TwitterSolrApplication in 5.155 seconds (JVM running for 6.647)
+2019-03-17 21:48:38,549  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:39,127  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:39,299  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:39,595  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:39,767  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:39,955  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:40,124  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:40,328  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:40,546  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:41,078  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:41,246  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:41,512  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:41,778  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:42,090  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:42,278  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:48:42,512  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:15,034  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:15,769  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:15,847  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:16,081  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:16,253  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:16,394  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:16,675  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:16,847  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:17,066  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:17,253  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:17,581  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:17,722  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:17,863  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:18,019  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:18,190  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:18,331  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:18,487  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:18,706  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:18,893  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:19,050  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:19,219  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:19,516  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:19,656  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:19,813  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:20,047  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:20,207  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:20,410  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:20,675  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:20,825  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:20,975  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:21,172  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:21,347  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:21,532  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:21,727  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:21,904  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:22,126  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:22,384  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:22,564  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:22,742  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:23,013  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:23,026  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:23,047  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:23,324  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:23,485  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:23,696  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:23,917  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:24,087  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:24,232  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:24,357  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:24,498  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:24,639  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:24,786  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:25,021  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:25,193  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:25,427  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:25,702  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:25,886  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:26,026  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:26,172  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:26,344  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:26,482  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:26,623  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:26,831  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:27,108  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:27,248  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:27,373  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:27,524  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:27,701  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:27,848  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:27,973  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:28,124  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:28,413  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:28,648  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:28,812  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:28,951  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:29,076  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:29,233  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:29,373  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:29,518  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:29,689  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:29,861  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:30,126  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:30,313  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:30,483  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:30,623  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:30,779  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:30,947  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:31,081  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:31,230  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:31,422  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:31,639  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:31,764  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:31,934  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:32,320  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:32,584  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:32,803  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:32,975  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:33,115  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:33,298  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:33,483  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:33,634  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:33,786  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:33,947  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:34,123  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:34,270  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:34,416  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:34,541  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:34,729  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:34,968  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:35,093  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:35,269  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:35,415  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:35,587  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:35,782  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:35,970  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:36,111  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:36,332  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:36,552  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:36,677  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:36,797  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:36,938  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:37,112  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:37,263  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:37,408  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:37,548  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:37,691  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:37,900  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:38,024  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:38,176  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:38,329  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:38,501  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:38,658  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:38,793  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:38,952  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:39,151  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:39,335  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:39,487  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:39,642  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:39,774  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:39,925  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,073  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,205  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,355  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,531  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,858  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,858  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,858  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,858  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:40,858  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:41,120  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:41,256  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:41,419  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:41,594  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:41,756  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:41,932  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,243  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,243  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,243  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,404  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,540  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,675  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,822  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:42,960  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:43,110  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:43,303  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:43,545  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:43,681  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:43,806  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:43,957  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:44,108  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:44,277  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:44,428  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:44,592  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:44,801  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:45,042  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:45,218  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:45,353  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:45,481  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:45,606  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:45,746  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:45,873  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:46,029  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:46,205  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:46,440  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:46,592  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:46,717  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:46,861  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:46,996  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:47,129  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:47,272  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:47,420  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:47,575  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:47,894  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:47,989  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:48,143  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:48,277  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:48,456  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:48,623  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:48,806  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:49,004  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:49,347  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:49,520  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:49,669  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:49,807  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:49,923  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:50,076  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:50,227  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:50,411  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:50,590  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:50,779  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:51,022  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:51,172  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:51,299  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:51,461  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:51,631  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:51,763  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:51,997  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:52,144  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:52,315  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:52,500  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:52,639  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:52,793  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:52,964  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:53,130  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:53,278  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:53,439  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:53,580  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:53,721  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:53,912  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:54,047  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:54,185  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:54,323  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:54,488  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:54,683  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:54,913  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:55,220  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:55,413  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:55,636  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:55,761  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:55,902  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:56,043  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:56,185  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:56,313  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:56,461  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:56,609  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:56,781  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:57,080  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:57,260  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:57,454  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:57,595  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:57,745  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:57,870  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:58,026  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:58,172  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:58,397  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:58,645  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:58,754  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:58,895  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,051  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,317  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,473  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,633  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,633  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,633  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,633  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,903  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,910  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:49:59,914  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:50:00,311  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:50:00,705  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:50:00,800  INFO CamelLogger: 
+Data saved to Solr
+2019-03-17 21:50:00,800  INFO CamelLogger: 
+Data saved to Solr

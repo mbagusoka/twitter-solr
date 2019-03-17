@@ -1,0 +1,190 @@
+{  
+   "id":"tag:search.twitter.com,2005:1107087108685131776",
+   "objectType":"activity",
+   "verb":"share",
+   "postedTime":"2019-03-17T01:11:50.000Z",
+   "generator":{  
+      "displayName":"Twitter for Android",
+      "link":"http:\/\/twitter.com\/download\/android"
+   },
+   "provider":{  
+      "objectType":"service",
+      "displayName":"Twitter",
+      "link":"http:\/\/www.twitter.com"
+   },
+   "link":"http:\/\/twitter.com\/roninpribumi\/statuses\/1107087108685131776",
+   "body":"RT @JonruGintingNew: Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.\n\nh\u2026",
+   "actor":{  
+      "objectType":"person",
+      "id":"id:twitter.com:2317399716",
+      "link":"http:\/\/www.twitter.com\/roninpribumi",
+      "displayName":"Suara Oposisi",
+      "postedTime":"2014-01-29T16:12:48.061Z",
+      "image":"https:\/\/pbs.twimg.com\/profile_images\/1106669659955183616\/AiTBTnzb_normal.jpg",
+      "summary":"Oposisi adalah keniscayaan dalam demokrasi | Akun bubuk rengginang | #2019GantiPresiden |\nAkun cadangan: @UdinNachiro",
+      "friendsCount":892,
+      "followersCount":38835,
+      "listedCount":23,
+      "statusesCount":86768,
+      "twitterTimeZone":null,
+      "verified":false,
+      "utcOffset":null,
+      "preferredUsername":"roninpribumi",
+      "languages":[  
+         "en"
+      ],
+      "links":[  
+         {  
+            "href":null,
+            "rel":"me"
+         }
+      ],
+      "location":{  
+         "objectType":"place",
+         "displayName":"South East Asia"
+      },
+      "favoritesCount":1343
+   },
+   "object":{  
+      "id":"tag:search.twitter.com,2005:1107076559528054784",
+      "objectType":"activity",
+      "verb":"post",
+      "postedTime":"2019-03-17T00:29:54.000Z",
+      "generator":{  
+         "displayName":"Twitter for Android",
+         "link":"http:\/\/twitter.com\/download\/android"
+      },
+      "provider":{  
+         "objectType":"service",
+         "displayName":"Twitter",
+         "link":"http:\/\/www.twitter.com"
+      },
+      "link":"http:\/\/twitter.com\/JonruGintingNew\/statuses\/1107076559528054784",
+      "body":"Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.\n\nhttps:\/\/t.co\/Lee0ZcWPLv",
+      "actor":{  
+         "objectType":"person",
+         "id":"id:twitter.com:1068270168843837441",
+         "link":"http:\/\/www.twitter.com\/JonruGintingNew",
+         "displayName":"Jonru Ginting",
+         "postedTime":"2018-11-29T22:27:10.529Z",
+         "image":"https:\/\/pbs.twimg.com\/profile_images\/1080291980838547456\/gy3sXFbB_normal.jpg",
+         "summary":"JONRU IS BACK! | HOBI MEMBLOKIR | Akun lama tak bisa diakses | Independen, bukan buzzer, bukan dari ormas\/parpol manapun |  Business Inquiry: WA 089653767937",
+         "friendsCount":54,
+         "followersCount":24951,
+         "listedCount":7,
+         "statusesCount":596,
+         "twitterTimeZone":null,
+         "verified":false,
+         "utcOffset":null,
+         "preferredUsername":"JonruGintingNew",
+         "languages":[  
+            "en"
+         ],
+         "links":[  
+            {  
+               "href":"http:\/\/www.jonruginting.com",
+               "rel":"me"
+            }
+         ],
+         "location":{  
+            "objectType":"place",
+            "displayName":"Jakarta Capital Region, Indone"
+         },
+         "favoritesCount":616
+      },
+      "object":{  
+         "objectType":"note",
+         "id":"object:search.twitter.com,2005:1107076559528054784",
+         "summary":"Kalo gitu banyakin aja OTT dari kubu 01 pak. Biar persepsinya makin positif dan kita makin tahu kalian seperti apa.\n\nhttps:\/\/t.co\/Lee0ZcWPLv",
+         "link":"http:\/\/twitter.com\/JonruGintingNew\/statuses\/1107076559528054784",
+         "postedTime":"2019-03-17T00:29:54.000Z"
+      },
+      "favoritesCount":123,
+      "twitter_entities":{  
+         "hashtags":[  
+
+         ],
+         "urls":[  
+            {  
+               "url":"https:\/\/t.co\/Lee0ZcWPLv",
+               "expanded_url":"https:\/\/m.cnnindonesia.com\/nasional\/20190315232544-32-377777\/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi",
+               "display_url":"m.cnnindonesia.com\/nasional\/20190\u2026",
+               "indices":[  
+                  117,
+                  140
+               ]
+            }
+         ],
+         "user_mentions":[  
+
+         ],
+         "symbols":[  
+
+         ]
+      },
+      "twitter_lang":"in",
+      "twitter_filter_level":"low"
+   },
+   "favoritesCount":0,
+   "twitter_entities":{  
+      "hashtags":[  
+
+      ],
+      "urls":[  
+
+      ],
+      "user_mentions":[  
+         {  
+            "screen_name":"JonruGintingNew",
+            "name":"Jonru Ginting",
+            "id":1068270168843837441,
+            "id_str":"1068270168843837441",
+            "indices":[  
+               3,
+               19
+            ]
+         }
+      ],
+      "symbols":[  
+
+      ]
+   },
+   "twitter_lang":"in",
+   "retweetCount":38,
+   "gnip":{  
+      "matching_rules":[  
+         {  
+            "tag":"1576:r2616:1",
+            "id":1105379165216227328,
+            "id_str":"1105379165216227328"
+         }
+      ],
+      "urls":[  
+         {  
+            "url":"https:\/\/t.co\/Lee0ZcWPLv",
+            "expanded_url":"https:\/\/www.cnnindonesia.com\/nasional\/20190315232544-32-377777\/tkn-ott-romi-sumbang-persepsi-positif-untuk-jokowi?utm_source=twitter&utm_medium=oa&utm_content=cnnindonesia&utm_campaign=cmssocmed",
+            "expanded_status":200,
+            "expanded_url_title":"TKN: OTT Romi Sumbang Persepsi Positif untuk Jokowi",
+            "expanded_url_description":"TKN Jokowi-Ma'ruf Amin mengklaim OTT KPK terhadap Ketum PPP Romahurmuziy tak memengaruhi elektabilitas pasangan calon yang diusung."
+         }
+      ],
+      "profileLocations":[  
+         {  
+            "address":{  
+               "country":"South Africa",
+               "countryCode":"ZA"
+            },
+            "displayName":"South Africa",
+            "geo":{  
+               "coordinates":[  
+                  24.0,
+                  -29.0
+               ],
+               "type":"point"
+            },
+            "objectType":"place"
+         }
+      ]
+   },
+   "twitter_filter_level":"low"
+}
