@@ -3,8 +3,7 @@ package com.sonar.twittersolr.service.impl;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sonar.twittersolr.dto.TwitterAuthorDTO;
-import com.sonar.twittersolr.dto.TwitterDataDTO;
+import com.sonar.twittersolr.dto.TwitterDTO;
 import com.sonar.twittersolr.model.TwitterAuthor;
 import com.sonar.twittersolr.model.TwitterData;
 import com.sonar.twittersolr.repository.TwitterAuthorRepository;
@@ -37,26 +36,8 @@ public class TwitterCrudServiceImpl implements TwitterCrudService {
     @Transactional
     public void saveData(Exchange exchange) {
         try {
-            TwitterDataDTO twitterDataDTO = new ObjectMapper().readValue(exchange.getIn().getBody(String.class), TwitterDataDTO.class);
-            TwitterData twitterData = new TwitterData(
-                    twitterDataDTO.getId(),
-                    twitterDataDTO.getUsername(),
-                    twitterDataDTO.getSource(),
-                    twitterDataDTO.getPostUrl(),
-                    twitterDataDTO.getContent(),
-                    twitterDataDTO.getUrlUsername(),
-                    twitterDataDTO.getPostType(),
-                    twitterDataDTO.getRefPostId(),
-                    twitterDataDTO.getRefPostUsername(),
-                    twitterDataDTO.getRefPost(),
-                    twitterDataDTO.getCity(),
-                    twitterDataDTO.getProvince(),
-                    twitterDataDTO.getCountry(),
-                    twitterDataDTO.getLongitude(),
-                    twitterDataDTO.getLatitude(),
-                    twitterDataDTO.getTransactionDate(),
-                    twitterDataDTO.getSentiment()
-            );
+            TwitterDTO twitterDTO = new ObjectMapper().readValue(exchange.getIn().getBody(String.class), TwitterDTO.class);
+            TwitterData twitterData = new TwitterData(twitterDTO.getFields());
             twitterDataRepository.save(twitterData);
             exchange.getIn().setBody(twitterData);
         } catch (JsonParseException | JsonMappingException e) {
@@ -70,14 +51,8 @@ public class TwitterCrudServiceImpl implements TwitterCrudService {
     @Transactional
     public void saveAuthor(Exchange exchange) {
         try {
-            TwitterAuthorDTO twitterAuthorDTO = new ObjectMapper().readValue(exchange.getIn().getBody(String.class), TwitterAuthorDTO.class);
-            TwitterAuthor twitterAuthor = new TwitterAuthor(
-                    twitterAuthorDTO.getSource(),
-                    twitterAuthorDTO.getUsername(),
-                    twitterAuthorDTO.getScreenName(),
-                    twitterAuthorDTO.getDescription(),
-                    twitterAuthorDTO.getSocialMediaRole(),
-                    twitterAuthorDTO.getUrlUsername());
+            TwitterDTO twitterDTO = new ObjectMapper().readValue(exchange.getIn().getBody(String.class), TwitterDTO.class);
+            TwitterAuthor twitterAuthor = new TwitterAuthor(twitterDTO.getFields());
             twitterAuthorRepository.save(twitterAuthor);
             exchange.getIn().setBody(twitterAuthor);
         } catch (JsonParseException | JsonMappingException e) {
