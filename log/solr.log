@@ -37655,3 +37655,71 @@ Author saved to Solr
 Author saved to Solr
 2019-03-17 17:13:22,988  INFO CamelLogger: 
 Author saved to Solr
+2019-03-17 17:34:59,495  INFO AbstractTestContextBootstrapper: 
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sonar.twittersolr.TwitterSolrApplicationTests], using SpringBootContextLoader
+2019-03-17 17:34:59,511  INFO AbstractContextLoader: 
+Could not detect default resource locations for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 17:34:59,526  INFO AnnotationConfigContextLoaderUtils: 
+Could not detect default configuration classes for test class [com.sonar.twittersolr.TwitterSolrApplicationTests]: TwitterSolrApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-17 17:34:59,761  INFO SpringBootTestContextBootstrapper: 
+Found @SpringBootConfiguration com.sonar.twittersolr.TwitterSolrApplication for test class com.sonar.twittersolr.TwitterSolrApplicationTests
+2019-03-17 17:34:59,932  INFO AbstractTestContextBootstrapper: 
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 17:34:59,964  INFO AbstractTestContextBootstrapper: 
+Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e07db1f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1189dd52, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36bc55de, org.springframework.test.context.support.DirtiesContextTestExecutionListener@564fabc8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16d04d3d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@49ec71f8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1d2adfbe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@36902638, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@223d2c72, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8f4ea7c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@436813f3]
+2019-03-17 17:35:00,698  INFO StartupInfoLogger: 
+Starting TwitterSolrApplicationTests on DESKTOP-0QHFRNM with PID 3000 (started by Liluri in C:\Users\Liluri\Documents\Workspace\twitter-solr)
+2019-03-17 17:35:00,698  INFO SpringApplication: 
+No active profile set, falling back to default profiles: default
+2019-03-17 17:35:02,231  INFO RepositoryConfigurationDelegate: 
+Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-17 17:35:02,372  INFO RepositoryConfigurationDelegate: 
+Finished Spring Data repository scanning in 125ms. Found 2 repository interfaces.
+2019-03-17 17:35:03,106  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker: 
+Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$ec13b3b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-17 17:35:04,825  INFO DefaultTypeConverter: 
+Type converters loaded (core: 195, classpath: 1)
+2019-03-17 17:35:06,511  INFO TwitterRouter: 
+Twitter Router Configured
+2019-03-17 17:35:06,511  INFO RoutesCollector: 
+Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-03-17 17:35:06,511  INFO RoutesCollector: 
+Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-03-17 17:35:06,527  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is starting
+2019-03-17 17:35:06,527  INFO ManagedManagementStrategy: 
+JMX is enabled
+2019-03-17 17:35:07,527  INFO DefaultCamelContext: 
+StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-03-17 17:35:07,714  INFO DefaultCamelContext: 
+Route: route1 started and consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 17:35:07,995  INFO DefaultCamelContext: 
+Route: route2 started and consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 17:35:07,995  INFO DefaultCamelContext: 
+Route: route3 started and consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 17:35:08,011  INFO DefaultCamelContext: 
+Route: route4 started and consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 17:35:08,011  INFO DefaultCamelContext: 
+Total 4 routes, of which 4 are started
+2019-03-17 17:35:08,011  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) started in 1.484 seconds
+2019-03-17 17:35:08,027  INFO StartupInfoLogger: 
+Started TwitterSolrApplicationTests in 8.001 seconds (JVM running for 9.683)
+2019-03-17 17:35:08,652  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutting down
+2019-03-17 17:35:08,652  INFO DefaultShutdownStrategy: 
+Starting to graceful shutdown 4 routes (timeout 300 seconds)
+2019-03-17 17:35:09,105  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route4 shutdown complete, was consuming from: jms://queue:author?maxConcurrentConsumers=5
+2019-03-17 17:35:09,105  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route3 shutdown complete, was consuming from: file://twitterAuthorFolder?charset=UTF-8
+2019-03-17 17:35:09,120  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route2 shutdown complete, was consuming from: jms://queue:data?maxConcurrentConsumers=5
+2019-03-17 17:35:09,120  INFO DefaultShutdownStrategy$ShutdownTask: 
+Route: route1 shutdown complete, was consuming from: file://twitterDataFolder?charset=UTF-8
+2019-03-17 17:35:09,120  INFO DefaultShutdownStrategy: 
+Graceful shutdown of 4 routes completed in 0 seconds
+2019-03-17 17:35:09,136  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) uptime 2.609 seconds
+2019-03-17 17:35:09,136  INFO DefaultCamelContext: 
+Apache Camel 2.22.0 (CamelContext: camel-1) is shutdown in 0.484 seconds

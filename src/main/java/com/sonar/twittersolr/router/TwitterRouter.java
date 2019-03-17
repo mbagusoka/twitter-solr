@@ -47,7 +47,7 @@ public class TwitterRouter extends RouteBuilder {
                     .to(jmsQueueData);
 
             from(jmsQueueData.concat("?maxConcurrentConsumers=".concat(dataMaxConcurrent)))
-                    .bean(applicationContext.getBean(TwitterCrudService.class), "saveData")
+                    .bean(applicationContext.getBean(TwitterCrudService.class), "processData")
                     .log("Data saved to Solr");
 
             from("file://".concat(twitterAuthorFolder).concat("?charset=UTF-8"))
@@ -55,7 +55,7 @@ public class TwitterRouter extends RouteBuilder {
                     .to(jmsQueueAuthor);
 
             from(jmsQueueAuthor.concat("?maxConcurrentConsumers=".concat(authorMaxConcurrent)))
-                    .bean(applicationContext.getBean(TwitterCrudService.class), "saveAuthor")
+                    .bean(applicationContext.getBean(TwitterCrudService.class), "processAuthor")
                     .log("Author saved to Solr");
 
             LOGGER.info("Twitter Router Configured");

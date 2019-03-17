@@ -33,12 +33,21 @@ public class TwitterCrudServiceImpl implements TwitterCrudService {
     }
 
     @Override
+    public TwitterData saveData(TwitterDTO twitterDTO) {
+        return twitterDataRepository.save(new TwitterData(twitterDTO.getFields()));
+    }
+
+    @Override
+    public TwitterAuthor saveAuthor(TwitterDTO twitterDTO) {
+        return twitterAuthorRepository.save(new TwitterAuthor(twitterDTO.getFields()));
+    }
+
+    @Override
     @Transactional
-    public void saveData(Exchange exchange) {
+    public void processData(Exchange exchange) {
         try {
             TwitterDTO twitterDTO = new ObjectMapper().readValue(exchange.getIn().getBody(String.class), TwitterDTO.class);
-            TwitterData twitterData = new TwitterData(twitterDTO.getFields());
-            twitterDataRepository.save(twitterData);
+            TwitterData twitterData = this.saveData(twitterDTO);
             exchange.getIn().setBody(twitterData);
         } catch (JsonParseException | JsonMappingException e) {
             LOGGER.error("JsonException: ", e);
@@ -49,11 +58,10 @@ public class TwitterCrudServiceImpl implements TwitterCrudService {
 
     @Override
     @Transactional
-    public void saveAuthor(Exchange exchange) {
+    public void processAuthor(Exchange exchange) {
         try {
             TwitterDTO twitterDTO = new ObjectMapper().readValue(exchange.getIn().getBody(String.class), TwitterDTO.class);
-            TwitterAuthor twitterAuthor = new TwitterAuthor(twitterDTO.getFields());
-            twitterAuthorRepository.save(twitterAuthor);
+            TwitterAuthor twitterAuthor = this.saveAuthor(twitterDTO);
             exchange.getIn().setBody(twitterAuthor);
         } catch (JsonParseException | JsonMappingException e) {
             LOGGER.error("JsonException: ", e);
